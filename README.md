@@ -23,16 +23,16 @@ Using the API
 You can pass parameters to the results API to get data from the app.
 
 Get all the list of cities
-GET /api/cities
+* GET /api/cities
 
 Get all the sectors
-GET /api/sectors
+* GET /api/sectors
 
 Get all the sector details
-GET /api/sectors/:id
+* GET /api/sectors/:id
 
 Get the total respondents and priorities rating
-GET /api/survey/get/:keys(<gender>;<age>;<salary>;<cities>)
+* GET /api/survey/get/:keys(gender;age;salary;cities)
 
 
 
